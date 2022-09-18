@@ -1,0 +1,112 @@
+<!-- <html>
+<head>
+	<style >
+		.p{
+			padding-top: 200px;
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-bottom: 30px;
+		}
+		table{
+		    width: 100%;
+			color:black;
+			background-color: #B39CD0;
+
+		}
+		table, th, td {
+ 			 border: 5px solid black;
+  			border-collapse: collapse;
+			}
+		body{
+			background-color: #FBEAFF;
+		}
+
+	</style>
+	</head>
+   <body>
+   <h1> please keep this hash protected</h1>
+   </body>
+   <div align="center" class="p">
+   <table border="3">
+        <tr >
+            <td rowspan="1" align="center"><b>user</b></td>
+            <td colspan="7" align="center"> <b>hash</b></td>
+        </tr>
+        <tr>
+            <td colspan="7" align="center"><b>{{name}}</b></td>
+            <td rowspan="1" colspan="2" align="center"><b>{{secret}}</b></td>
+        </tr>
+        
+
+
+   </table>
+</div>
+   
+
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		* {
+box-sizing: border-box;
+}
+
+*:focus {
+outline: none;
+}
+body {
+font-family: Arial;
+background-color: #3498DB;
+padding: 50px;
+}
+.login {
+margin: 20px auto;
+width: 300px;
+}
+.login-screen {
+background-color: #FFF;
+padding: 20px;
+border-radius: 5px
+}
+
+.app-title {
+text-align: center;
+color: #777;
+}
+
+.login-form {
+text-align: center;
+}
+.control-group {
+margin-bottom: 10px;
+}
+
+input {
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 1000px;
+transition: border .5s;
+}
+
+input:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+
+	</style>
+</head>
+<body>
+<h1> please keep this hash protected</h1>
+
+				NAME: <input type="text" value={{name}}  name="username" readonly><br><br><br>
+				HASH: <input type="text" value={{secret}}  name="device_id" readonly>
+
+</form>
+</body>
+</html>
